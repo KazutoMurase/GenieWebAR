@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "aframe": "0.8.2",
+        "aframe-ar": "0.2.1-a",
+        "aframe-particle-system-component": "1.1.1",
+        "@tensorflow/tfjs": "0.13.2"
+    }
+}
