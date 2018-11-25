@@ -4,5 +4,15 @@
         "aframe-ar": "0.2.1-a",
         "aframe-particle-system-component": "1.1.1",
         "@tensorflow/tfjs": "0.13.2"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "2.30.1",
+        "webpack": "3.11.0",
+        "webpack-dev-server": "2.11.2"
+    },
+    "scripts": {
+        "build": "webpack -p",
+        "dev": "webpack -d",
+        "start": "webpack-dev-server -d --open"
     }
 }
